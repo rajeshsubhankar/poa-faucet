@@ -35,7 +35,7 @@ app.get('/', function(request, response) {
   response.send('Sokol POA Network faucet');
 });
 
-app.set('port', (process.env.PORT || 5000));
+app.set('port', (process.env.PORT || 3002));
 
 app.listen(app.get('port'), function () {
     console.log('Sokol testnet POA Network faucet is running on port', app.get('port'));
